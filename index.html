@@ -4,95 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="./css/style.css" />
 </head>
+
 <body>
-<header>
-    <nav>
-    <a href="">SIMPLY CHOCOLATE
-        <img src="./images/chocolate-icon.svg" alt="Logo" width="24" height="24">
+<header class="header">
+    <nav class="header-nav">
+    <a href="" class="header-logo"><span class="header-logo-italic">SIMPLY</span> CHOCOLATE
+        <img src="./images/chocolate-icon.svg" class="header-img" alt="Logo" width="24" height="24">
         </a>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">How it’s made?</a></li>
-                <li><a href="">Chocolate is loved</a></li>
+            <ul class="header-menu-list">
+                <li class="header-menu-item"><a href="" class="header-menu-link">Home</a></li>
+                <li class="header-menu-item"><a href="" class="header-menu-link">How it’s made?</a></li>
+                <li class="header-menu-item"><a href="" class="header-menu-link">Chocolate is loved</a></li>
             </ul>
     </nav>
-                <ul>
-                    <li><a href="" target="_blank" rel="noopener noreferrer">insta</a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer">fb</a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer">twit</a></li>
+                <ul class="header-social-list">
+                    <li class="header-socisl-item"><a href="" class="header-social-link" target="_blank" rel="noopener noreferrer">insta</a></li>
+                    <li class="header-socisl-item"><a href="" class="header-social-link" target="_blank" rel="noopener noreferrer">fb</a></li>
+                    <li class="header-socisl-item"><a href="" class="header-social-link" target="_blank" rel="noopener noreferrer">twit</a></li>
                 </ul> 
 </header> 
 
 <main>
-    <section>
-        <h1>Treat yourself or a loved one to
+    <section class="hero">
+        <h1 class="hero-title">Treat yourself or a loved one to
         our finest ingredients for a moment
         of pure delight!</h1>
-        <button type="button">Buy now</button>
-        <a href="">How it’s made</a>
-        <a href="">scroll down</a>
+        <button class="hero-btn" type="button">Buy now</button>
+        <a href="#made" class="hero-made-link">How it’s made</a>
+        <a href="" class="hero-scroll-link">scroll down</a>
     </section>
 
-    <section>
-        <h2>About</h2>
-        <h3>Unsurpassed taste</h3>
-        <p>
+    <section class="benifits">
+        <h2 class="visually-hidden">Benefits</h2>
+        <ul class="benefits-list">
+            <li class="benefits-item">
+            <h3 class="benifits-subtitle">Unsurpassed taste</h3>
+        <p class="benefits-item-text">
         Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that
         simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of
         chocolate bliss.
         </p>
-        <h3>Affordable price</h3>
-        <p>
-            Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats.
+        </li>
+        <li class="benefits-item">
+        <h3 class="benifits-subtitle">Affordable price</h3>
+        <p class="benefits-item-text">
+        Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats.
         Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality. Browse our selection and
         indulge in affordable luxury today.
         </p>
-        <h3>Own production</h3>
-        <p>
+        </li>
+        <li class="benefits-item">
+        <h3 class="benifits-subtitle">Own production</h3>
+        <p class="benefits-item-text">
         We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting
         the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.
     </p>
+    </li>
+    </ul>
     </section>
 
-    <section>
-        <h2>IT ALL ADDS UP TO ONE EXCEPTIONAL TASTE SENSATION</h2>
-        <p>
+    <section class="taste">
+        <h2 class="taste-title">IT ALL ADDS UP TO ONE EXCEPTIONAL <span class="taste-orange">TASTE</span> SENSATION</h2>
+        <p class="taste-text">
         At Simply Chocolate, we believe that the secret to exceptional chocolate is in the details. From the sourcing of the finest ingredients to the careful crafting of each individual piece, every step of our process adds up to one
         exceptional taste sensation.
     </p>
-        <ul>
-            <li>
-                <a href=""><img src="./images/img-1.png" alt="milk chocolate" width="214" height="160"></a>
-                <h3>MILK CHOCOLATE</h3>
+        <ul class="taste-list">
+            <li class="taste-item">
+                <img class="taste-image" src="./images/img-1.png" alt="milk chocolate" width="214" height="160">
+                <h3 class="taste-subtext">MILK CHOCOLATE</h3>
             </li>
-            <li>
-                <a href=""><img src="./images/img-2.png" alt="milk" width="214" height="160"></a>
-                <h3>MILK</h3>
+            <li class="taste-item">
+                <img class="taste-image" src="./images/img-2.png" alt="milk" width="214" height="160">
+                <h3 class="taste-subtext">MILK</h3>
             </li>
-            <li>
-                <a href=""><img src="./images/img-3.png" alt="hazelnuts" width="214" height="160"></a>
-                <h3>NUTS</h3>
+            <li class="taste-item">
+                <img class="taste-image" src="./images/img-3.png" alt="hazelnuts" width="214" height="160">
+                <h3 class="taste-subtext">NUTS</h3>
             </li>
-            <li>
-                <a href=""><img src="./images/img-4.png" alt="chocolate" width="214" height="160"></a>
-            <h3>SEMI - SWEET CHOCOLATE</h3>
+            <li class="taste-item">
+                <img class="taste-image" src="./images/img-4.png" alt="chocolate" width="214" height="160">
+            <h3 class="taste-subtext">SEMI - SWEET CHOCOLATE</h3>
             </li>
-            <li>
-                <a href=""><img src="./images/img-5.png" alt="cacao" width="214" height="160"></a>
-            <h3>CACAO</h3>
+            <li class="taste-item">
+                <img class="taste-image" src="./images/img-5.png" alt="cacao" width="214" height="160">
+            <h3 class="taste-subtext">CACAO</h3>
             </li>
-            <li>
-                <a href=""><img src="./images/img-6.png" alt="raspberry" width="214" height="160"></a>
-            <h3>RASPBERRY</h3>
+            <li class="taste-item">
+                <img class="taste-image" src="./images/img-6.png" alt="raspberry" width="214" height="160">
+            <h3 class="taste-subtext">RASPBERRY</h3>
             </li>
-            <li>
-                <a href=""><img src="./images/img-7.png" alt="coconut oil" width="214" height="160"></a>
-            <h3>COCONUT OIL</h3>
+            <li class="taste-item">
+                <img class="taste-image" src="./images/img-7.png" alt="coconut oil" width="214" height="160">
+            <h3 class="taste-subtext">COCONUT OIL</h3>
             </li>
-            <li>
-                <a href=""><img src="./images/img-8.png" alt="vanilla" width="214" height="160"></a>
-                <h3>VANILLA</h3>
+            <li class="taste-item">
+                <img class="taste-image" src="./images/img-8.png" alt="vanilla" width="214" height="160">
+                <h3 class="taste-subtext">VANILLA</h3>
             </li>
         </ul>
     </section>
